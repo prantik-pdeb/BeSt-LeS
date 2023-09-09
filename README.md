@@ -21,12 +21,19 @@ Explain how to get started with your project. Provide step-by-step instructions 
 ### Prerequisites
 List the software, libraries, and dependencies:
 Python 3.9.12
+
 Pytorch 1.12.1
+
 Numpy 1.23.5
+
 Scikit-learn 1.2.2
+
 Nibable 5.1.0
+
 Scipy 1.10.1
+
 Nilearn 0.10.1
+
 cv2 4.7.0
 
 ### Installation:
