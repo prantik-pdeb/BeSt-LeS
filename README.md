@@ -8,7 +8,7 @@ Brain stroke has become a significant burden on global health and thus we need r
 
 ### 2D U-Net Architectures
 
-The first three models are pure convolution-based architectures, while the remaining two are hybrid networks combining convolutions and transformer components. The evaluation criteria are the same as those in Table 2, and the performance of the models on the test set is reported below.
+The first three models are pure convolution-based architectures, while the remaining two are hybrid networks combining convolutions and transformer components. The performance of the models on the test set is reported below.
 
 | Method                | Dice Score | IoU Score | Precision | Recall |
 |-----------------------|------------|-----------|-----------|--------|
@@ -17,6 +17,19 @@ The first three models are pure convolution-based architectures, while the remai
 | Attention U-Net       | 0.487      | 0.396     | 0.636     | 0.439  |
 | TransAttn U-Net       | 0.572      | *0.477*   | *0.660*   | 0.565  |
 | U-Net Transformer     | *0.583*    | 0.475     | 0.659     | *0.591*|
+
+### 3D U-Net Architectures
+
+The table below illustrates the performance of variants of 3D U-Net architectures. These models are pure convolution-based architectures. The performance of the models on the test set is reported below.
+
+| Method                | Dice Score | IoU Score | Precision | Recall |
+|-----------------------|------------|-----------|-----------|--------|
+| U-Net                 | 0.450      | 0.350     | 0.584     | 0.444  |
+| Residual U-Net        | *0.504*    | *0.393*   | *0.585*   | 0.533  |
+| Attention U-Net       | 0.469      | 0.369     | 0.498     | *0.578*|
+
+
+
 
 
 ## Table of Contents
