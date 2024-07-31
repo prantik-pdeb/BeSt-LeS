@@ -4,6 +4,21 @@
 
 Brain stroke has become a significant burden on global health and thus we need remedies and prevention strategies to overcome this challenge. For this, the immediate identification of stroke and risk stratification is the primary task for clinicians. To aid expert clinicians, automated segmentation models are crucial. In this work, we consider the publicly available dataset ATLAS v2.0 to benchmark various end-to-end supervised U-Net style models. Specifically, we have benchmarked models on both 2D and 3D brain images and evaluated them using standard metrics. We have achieved the highest Dice score of 0.583 on the 2D transformer-based model and 0.504 on the 3D residual U-Net respectively. We have conducted the Wilcoxon test for 3D models to correlate the relationship between predicted and actual stroke volume. For reproducibility, the code and model weights are made  available here.
 
+## Results
+
+### 2D U-Net Architectures
+
+The first three models are pure convolution-based architectures, while the remaining two are hybrid networks combining convolutions and transformer components. The evaluation criteria are the same as those in Table 2, and the performance of the models on the test set is reported below.
+
+| Method                | Dice Score | IoU Score | Precision | Recall |
+|-----------------------|------------|-----------|-----------|--------|
+| U-Net                 | 0.417      | 0.337     | 0.580     | 0.360  |
+| Residual U-Net        | 0.456      | 0.375     | 0.592     | 0.420  |
+| Attention U-Net       | 0.487      | 0.396     | 0.636     | 0.439  |
+| TransAttn U-Net       | 0.572      | *0.477*   | *0.660*   | 0.565  |
+| U-Net Transformer     | *0.583*    | 0.475     | 0.659     | *0.591*|
+
+
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
