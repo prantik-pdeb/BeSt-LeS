@@ -1,4 +1,5 @@
 # [BeSt-LeS: Benchmarking Stroke Lesion Segmentation using Deep Supervision]
+[arXiv paper]([https://arxiv.org/abs/1234.56789](https://arxiv.org/abs/2310.07060))
 *In Progress*
 
 ## Introduction
