@@ -66,6 +66,18 @@ Here are visualizations of the 2D models, organized into two sections for clarit
   </tr>
 </table>
 
+## Pre-trained Weights
+
+We provide pre-trained weights for our models to facilitate easy experimentation and evaluation. You can download the weights using the links below:
+
+- **[Download Pre-trained Weights for Model A](https://example.com/path-to-pretrained-weights-model-a)**
+- **[Download Pre-trained Weights for Model B](https://example.com/path-to-pretrained-weights-model-b)**
+
+Alternatively, use the buttons below for direct access:
+
+<a href="https://example.com/path-to-pretrained-weights-model-a" target="_blank" style="display:inline-block; padding:10px 20px; font-size:16px; font-weight:bold; color:#fff; background-color:#007bff; border-radius:5px; text-decoration:none;">Download Model A Weights</a>
+
+<a href="https://example.com/path-to-pretrained-weights-model-b" target="_blank" style="display:inline-block; padding:10px 20px; font-size:16px; font-weight:bold; color:#fff; background-color:#007bff; border-radius:5px; text-decoration:none;">Download Model B Weights</a>
 
 
 
