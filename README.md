@@ -31,8 +31,6 @@ The table below illustrates the performance of variants of 3D U-Net architecture
 
 ### Visualizations of 2D models 
 
-#### U-Net & Residual U-Net
-
 <table>
   <tr>
     <td style="text-align:center"><strong>U-Net</strong><br><img src="docs/sub-r004s004_U-NET.gif" alt="U-Net Visualization" width="400"/></td>
@@ -40,16 +38,12 @@ The table below illustrates the performance of variants of 3D U-Net architecture
   </tr>
 </table>
 
-#### Attention U-Net & TransAttn U-Net
-
 <table>
   <tr>
     <td style="text-align:center"><strong>Attention U-Net</strong><br><img src="docs/sub-r004s004_attention-U-NET.gif" alt="Attention U-Net Visualization" width="400"/></td>
     <td style="text-align:center"><strong>TransAttn U-Net</strong><br><img src="docs/sub-r004s004_transattn-UNET.gif" alt="TransAttn U-Net Visualization" width="400"/></td>
   </tr>
 </table>
-
-#### U-Net Transformer
 
 <p style="text-align:center"><strong>U-Net Transformer</strong><br><img src="docs/sub-r004s004_U-NET-Transformer.gif" alt="U-Net Transformer Visualization" width="400"/></p>
 
