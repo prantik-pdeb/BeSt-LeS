@@ -3,6 +3,15 @@
 
 *In Progress*
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Results](#results)
+  - [2D U-Net Architectures](#2d-u-net-architectures)
+  - [3D U-Net Architectures](#3d-u-net-architectures)
+  - [Visualizations of 2D Models](#visualizations-of-2d-models)
+- [Pre-trained Weights](#pre-trained-weights)
+
 ## Introduction
 
 Brain stroke poses a significant challenge to global health. Effective remedies and prevention strategies are crucial. The immediate identification of stroke and risk stratification is vital for clinicians. Automated segmentation models play a key role in assisting experts. This work benchmarks various end-to-end supervised U-Net style models using the ATLAS v2.0 dataset, focusing on 2D and 3D brain images. We achieved the highest Dice score of 0.583 with a 2D transformer-based model and 0.504 with a 3D residual U-Net. The Wilcoxon test was conducted for 3D models to correlate predicted and actual stroke volumes. For reproducibility, code and model weights are available here.
@@ -75,6 +84,7 @@ We provide pre-trained weights for our models to facilitate easy experimentation
 - **[Attention U-Net](https://www.dropbox.com/scl/fi/2axed3aijmburefmqmqbw/best_model_att_unet2D.pth?rlkey=3gqgpayl2ot67k5qmfbch6noe&st=bgbsrpc6&dl=0)**
 - **[TransAttn U-Net](https://www.dropbox.com/scl/fi/3uw3ustku74h5ozoxqq0m/best_model_transatt_unet2D.pth?rlkey=2ugr9af23e1vskqy8mr9laudz&st=0dfb8tzs&dl=0)**
 - **[U-Net Transformer](https://www.dropbox.com/scl/fi/z60c0alj8pyd1u28lcjdj/best_model_trans_unet.pth?rlkey=l2rkefzbdcxzufrdkfwnl4wym&st=di3qkprq&dl=0)**
+
 
 
 
