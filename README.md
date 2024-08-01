@@ -29,7 +29,6 @@ The table below illustrates the performance of variants of 3D U-Net architecture
 | Attention U-Net       | 0.469      | 0.369     | 0.498     | *0.578*|
 
 
-### Visualizations of 2D models 
 ![Demo 1](docs/sub-r004s004_U-NET.gif)
 ![Demo 2](docs/sub-r004s004_res-UNET.gif)
 ![Demo 3](docs/sub-r004s004_attention-U-NET.gif)
