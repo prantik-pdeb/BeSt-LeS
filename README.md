@@ -6,6 +6,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
 - [Results](#results)
   - [2D U-Net Architectures](#2d-u-net-architectures)
   - [3D U-Net Architectures](#3d-u-net-architectures)
