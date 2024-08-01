@@ -1,5 +1,5 @@
 # [BeSt-LeS: Benchmarking Stroke Lesion Segmentation using Deep Supervision](https://arxiv.org/abs/2310.07060)
-*Accepted to MICCAI BrainLes 2023 (Oral)*
+### *Accepted to MICCAI BrainLes 2023 (Oral)*
 
 *In Progress*
 
