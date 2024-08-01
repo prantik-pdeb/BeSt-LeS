@@ -33,7 +33,7 @@ The table below illustrates the performance of various 3D U-Net models:
 
 Here are visualizations of the 2D models, organized into two sections for clarity:
 
-#### Model Visualizations (Subject A)
+#### Model Visualizations (Subject ID: sub-r004s004)
 
 <table>
   <tr>
@@ -50,7 +50,7 @@ Here are visualizations of the 2D models, organized into two sections for clarit
   </tr>
 </table>
 
-#### Model Visualizations (Subject B)
+#### Model Visualizations (Subject ID: sub-r027s050)
 
 <table>
   <tr>
