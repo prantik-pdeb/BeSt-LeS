@@ -16,6 +16,23 @@
 
 Brain stroke poses a significant challenge to global health. Effective remedies and prevention strategies are crucial. The immediate identification of stroke and risk stratification is vital for clinicians. Automated segmentation models play a key role in assisting experts. This work benchmarks various end-to-end supervised U-Net style models using the ATLAS v2.0 dataset, focusing on 2D and 3D brain images. We achieved the highest Dice score of 0.583 with a 2D transformer-based model and 0.504 with a 3D residual U-Net. The Wilcoxon test was conducted for 3D models to correlate predicted and actual stroke volumes. For reproducibility, code and model weights are available here.
 
+## Prerequisites
+
+- **Python** 3.9.12
+- **PyTorch** 1.12.1
+- **NumPy** 1.23.5
+- **Scikit-learn** 1.2.2
+- **Nibabel** 5.1.0
+- **SciPy** 1.10.1
+- **Nilearn** 0.10.1
+- **OpenCV** (cv2) 4.7.0
+
+You can install these dependencies using pip:
+
+```bash
+pip install torch==1.12.1 numpy==1.23.5 scikit-learn==1.2.2 nibabel==5.1.0 scipy==1.10.1 nilearn==0.10.1 opencv-python==4.7.0
+
+```
 ## Results
 
 ### 2D U-Net Architectures
