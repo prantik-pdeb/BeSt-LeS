@@ -31,20 +31,31 @@ The table below illustrates the performance of variants of 3D U-Net architecture
 
 ### Visualizations of 2D models 
 
-#### U-Net
-![U-Net Visualization](docs/sub-r004s004_U-NET.gif)
+#### U-Net & Residual U-Net
 
-#### Residual U-Net
-![Residual U-Net Visualization](docs/sub-r004s004_res-UNET.gif)
+<table>
+  <tr>
+    <td><img src="docs/sub-r004s004_U-NET.gif" alt="U-Net Visualization" width="400"/></td>
+    <td><img src="docs/sub-r004s004_res-UNET.gif" alt="Residual U-Net Visualization" width="400"/></td>
+  </tr>
+</table>
 
-#### Attention U-Net
-![Attention U-Net Visualization](docs/sub-r004s004_attention-U-NET.gif)
+#### Attention U-Net & TransAttn U-Net
 
-#### TransAttn U-Net
-![TransAttn U-Net Visualization](docs/sub-r004s004_transattn-UNET.gif)
+<table>
+  <tr>
+    <td><img src="docs/sub-r004s004_attention-U-NET.gif" alt="Attention U-Net Visualization" width="400"/></td>
+    <td><img src="docs/sub-r004s004_transattn-UNET.gif" alt="TransAttn U-Net Visualization" width="400"/></td>
+  </tr>
+</table>
 
 #### U-Net Transformer
-![U-Net Transformer Visualization](docs/sub-r004s004_U-NET-Transformer.gif)
+
+<table>
+  <tr>
+    <td><img src="docs/sub-r004s004_U-NET-Transformer.gif" alt="U-Net Transformer Visualization" width="400"/></td>
+  </tr>
+</table>
 
 
 ## Table of Contents
