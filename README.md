@@ -70,14 +70,11 @@ Here are visualizations of the 2D models, organized into two sections for clarit
 
 We provide pre-trained weights for our models to facilitate easy experimentation and evaluation. You can download the weights using the links below:
 
-- **[Download Pre-trained Weights for Model A](https://example.com/path-to-pretrained-weights-model-a)**
-- **[Download Pre-trained Weights for Model B](https://example.com/path-to-pretrained-weights-model-b)**
-
-Alternatively, use the buttons below for direct access:
-
-<a href="https://example.com/path-to-pretrained-weights-model-a" target="_blank" style="display:inline-block; padding:10px 20px; font-size:16px; font-weight:bold; color:#fff; background-color:#007bff; border-radius:5px; text-decoration:none;">Download Model A Weights</a>
-
-<a href="https://example.com/path-to-pretrained-weights-model-b" target="_blank" style="display:inline-block; padding:10px 20px; font-size:16px; font-weight:bold; color:#fff; background-color:#007bff; border-radius:5px; text-decoration:none;">Download Model B Weights</a>
+- **[U-Net](https://www.dropbox.com/scl/fi/ia0n96z3d9g8ibe1lzm6j/best_model_unet2D.pth?rlkey=wr9vdunay07n3u6qdun7dh97k&st=bqjwdonz&dl=0)**
+- **[Residual U-Net](https://www.dropbox.com/scl/fi/0glgirnwpo01sc8efwmww/best_model_resunet2D.pth?rlkey=018yhm2xtum7ou0bnnu6jjmg7&st=sriitu6n&dl=0)**
+- **[Attention U-Net](https://www.dropbox.com/scl/fi/2axed3aijmburefmqmqbw/best_model_att_unet2D.pth?rlkey=3gqgpayl2ot67k5qmfbch6noe&st=bgbsrpc6&dl=0)**
+- **[TransAttn U-Net](https://www.dropbox.com/scl/fi/3uw3ustku74h5ozoxqq0m/best_model_transatt_unet2D.pth?rlkey=2ugr9af23e1vskqy8mr9laudz&st=0dfb8tzs&dl=0)**
+- **[U-Net Transformer](https://www.dropbox.com/scl/fi/z60c0alj8pyd1u28lcjdj/best_model_trans_unet.pth?rlkey=l2rkefzbdcxzufrdkfwnl4wym&st=di3qkprq&dl=0)**
 
 
 
